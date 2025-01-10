@@ -25,8 +25,9 @@ let age = parseInt(prompt("Enter your age:")); // Get age from user
 let showtime = parseInt(prompt("Enter the showtime (in 24-hour format):")); // Get showtime
 
 // Step 2: Initialize ticket price variable
-let ticketPrice = 0;
+let ticketPrice = 5;
 
+// =============================================================================================================================
 // Todo: Step 3: Determine base ticket price using if-else statements
 // 1. Age-based pricing:
 //    - Children (0–12 years): $5
@@ -47,12 +48,12 @@ if (age > 0 && age <= 12) {
     console.log(`The Ticket Price for Seniors is: $${ticketPrice = 6}`);
     
 } else {
-    console.log("Not Available! Enter your Age again:");
+    console.log("Not Available! Enter your Age again: ");
     alert ("Not Available! Enter your Age again:")
 }
 
 
-
+// ==============================================================================================================================
 // Todo: Step 4: Apply discount for morning shows
 // 2. Showtime discount:
 //    - Morning shows (before 12 PM): 10% off all ticket prices.
@@ -65,6 +66,7 @@ if (showtime > 0 && showtime < 12) {
     alert ("Not Valid! Please enter a valid time:")
 }
 
+// =================================================================================================================================
 // Todo: Step 5: Output the final price
 
 console.log(`The final Price is: $${ticketPrice}`);
