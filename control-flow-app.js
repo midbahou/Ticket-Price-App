@@ -35,7 +35,7 @@ if (week === 1) {
     console.log(`The total Plant Growth for week ${week} is: ${startNumPlant *= 8} plants`);
 
 } else {
-    console.log(`Invalid data`);
+    console.log(`Invalid data: ${startNumPlant = undefined}`);
 }
 console.log(startNumPlant);
 

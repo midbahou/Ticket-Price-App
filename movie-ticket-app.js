@@ -48,7 +48,7 @@ if (age > 0 && age <= 12) {
     console.log(`The Ticket Price for Seniors is: $${ticketPrice = 6}`);
     
 } else {
-    console.log("Not Available! Enter your Age again: ");
+    console.log(`${ticketPrice = undefined} Enter your Age again: `);
     alert ("Not Available! Enter your Age again:")
 }
 
